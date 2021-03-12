@@ -18,6 +18,7 @@ public class MainTest {
         assertTrue(Main.DateCheck(31, 3, 2000));
         assertTrue(Main.DateCheck(30, 4, 2000));
         assertTrue(Main.DateCheck(28, 2, 2001));
+        assertTrue(Main.DateCheck(30, 2, 2001));
     }
     
     @Test
